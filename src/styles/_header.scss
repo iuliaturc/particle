@@ -18,7 +18,7 @@
   text-align: center;
   color:#FFF;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   margin: 0 auto;
   -webkit-transform: translate(-50%, -50%);
@@ -46,10 +46,10 @@
   .my-name-comment {
     font-size: 50px;
     display: block;
-    line-height: 3;
+    line-height: 1;
     color: #00eb00;
+    margin-top: 10px;
     @media only screen and (min-width:$cut){
-      margin: 0;
       font-size: 20px;
     }
   }
@@ -58,9 +58,9 @@
     display: block;
     line-height: 1;
     color: #FFF;
-    margin-top: 10px;
+    margin-top: 40px;
     @media only screen and (min-width:$cut){
-      font-size: 40px;
+      font-size: 35px;
     }
   }
 }
@@ -82,6 +82,7 @@
   display: flex;
   justify-content: center;
   text-align: center;
+  margin-top: 40px;
   .icon {
     text-align: center;
     color: #FFF;
